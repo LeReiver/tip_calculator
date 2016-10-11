@@ -1,3 +1,10 @@
+<!-- *
+* Mike Le-Reiver
+* 2016.10.01
+*
+* A basic tip calculator
+* Written in PHP and HTML
+  -->
 <!DOCTYPE html>
 <html>
     <head>

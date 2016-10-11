@@ -4,14 +4,18 @@
  * User: mike
  * Date: 10/1/15
  * Time: 8:12 PM
+ *
+ * A basic tip calculator
  */
 
+// variables
 $bill = $_GET['bill'];
 $percent = $_GET['percent'];
 $number = $_GET['number'];
 $tip = $bill * $percent;
 $subtotal = $bill + $tip;
 
+// Handles division by zero
 if ($number !=0 ) {
     $total = ($bill + $tip) / $number;
 } else {
